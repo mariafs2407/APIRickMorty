@@ -1,0 +1,75 @@
+/* contenido */
+.cont-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 2px;
+}
+
+/* LISTA DE PERSONAJES */
+.lista {
+    display: flex;
+    flex-direction: column;    
+    padding: 30px
+}
+.lista li{
+    list-style-image: url(assets/personaje.png);
+}
+.lista li:hover {
+    color: rgb(255, 152, 0);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* PERSONAJE */
+.cont-personaje {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.cont-personaje .personaje {
+    background-color: rgb(32, 35, 41);
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    margin-top: 25px;
+
+}
+
+.personaje img {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.personaje .info-p {
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.personaje .info-p .text-b {    
+    padding: 10px;
+    color: #fff;
+}
+.info-p .positivo{
+    color: red;
+
+}
+.info-p .negativo{
+    color: green;
+}
+.personaje .info-p p {
+    padding: 10px;
+    text-align: left;
+    color: rgb(158, 158, 158);
+}
+
+.personaje .info-p .tex {
+    color: #fff;
+}
